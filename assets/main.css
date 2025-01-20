@@ -1,0 +1,11 @@
+body{
+    min-height: 320px;
+}
+html{
+    
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
