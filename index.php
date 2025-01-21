@@ -31,12 +31,59 @@
             </nav>
         </header>
         <main class="main py-3">
-            <div class="row">
-                <div class="col-2">
-                    <!-- sidebar -->
-                </div>
-                <div class="col-10">
-                    <!-- посты -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <h3>Topics</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">A simple default list group item</li>
+                            <li class="list-group-item list-group-item-primary">A simple primary list group item</li>
+                            <li class="list-group-item list-group-item-secondary">A simple secondary list group item
+                            </li>
+                            <li class="list-group-item list-group-item-success">A simple success list group item</li>
+                            <li class="list-group-item list-group-item-danger">A simple danger list group item</li>
+                            <li class="list-group-item list-group-item-warning">A simple warning list group item</li>
+                            <li class="list-group-item list-group-item-info">A simple info list group item</li>
+                            <li class="list-group-item list-group-item-light">A simple light list group item</li>
+                            <li class="list-group-item list-group-item-dark">A simple dark list group item</li>
+                        </ul>
+                    </div>
+                    <div class="col-10">
+                        <h3>Recent Posts</h3>
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                Featured
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Special title treatment</h5>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
