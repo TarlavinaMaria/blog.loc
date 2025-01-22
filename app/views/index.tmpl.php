@@ -4,8 +4,6 @@
         <div class="row">
             <?php require("components/sidebar.php"); ?>
         </div>
-
-
         <div class="col-10">
             <h3><?= $header ?? "" ?></h3>
             <?php foreach ($posts as $post): ?>
