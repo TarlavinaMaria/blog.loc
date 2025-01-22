@@ -1,8 +1,8 @@
-<?php require("components/header.php"); ?>
+<?php require(COMPONENTS . "/header.php"); ?>
 <main class="main py-3">
     <div class="container">
         <div class="row">
-            <?php require("components/sidebar.php"); ?>
+            <?php require(COMPONENTS . "/sidebar.php"); ?>
         </div>
         <div class="col-10">
             <h3><?= $header ?? "" ?></h3>
@@ -26,4 +26,4 @@
         </div>
     </div>
 </main>
-<?php require("components/footer.php"); ?>
+<?php require(COMPONENTS . "/footer.php"); ?>

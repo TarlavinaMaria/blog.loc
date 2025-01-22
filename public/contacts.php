@@ -1,5 +1,4 @@
 <?php
-
 define("PATH", 'https://blog.loc');
 define("ROOT", dirname(__DIR__));
 
@@ -14,5 +13,9 @@ define("PUBLIC", ROOT . '/public');
 require_once CORE . "/functions.php";
 require_once CONTROLLERS . "/index.php";
 
+$title = "Blog/Contacts";
+$contacts = "Some contacts";
+$header = "Contacts";
 
+require_once("../app/views/contacts.tmpl.php");
 ?>
