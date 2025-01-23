@@ -12,7 +12,7 @@
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h3><?= $header ?? "" ?></h3>
+                                <h5 class="card-title"><?= $header ?? "" ?></h5>
                                 <p class="card-text"> <?= $contacts ?></p>
                             </div>
                         </div>
