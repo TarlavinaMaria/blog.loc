@@ -2,7 +2,7 @@
 <main class="main py-3">
     <div class="container">
         <div class="row">
-            <?php require(COMPONENTS . "components/sidebar.php"); ?>
+            <?php require(COMPONENTS . "/sidebar.php"); ?>
         </div>
         <div class="col-10">
             <h3><?= $header ?? "" ?></h3>
