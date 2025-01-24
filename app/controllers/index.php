@@ -5,27 +5,23 @@ $header = 'Recent Posts';
 
 $posts = [
     1 => [
-        'title' => 'Title 1',
-        'desc' => 'With supporting text below as a natural lead-in to additional
-content',
+        'title' => 'Первый пост',
+        'desc' => 'Первый в мире пост',
         'slug' => 'title-1'
     ],
     2 => [
-        'title' => 'Title 2',
-        'desc' => 'With supporting text below as a natural lead-in to additional
-content',
+        'title' => 'Второй пост',
+        'desc' => 'Второй в мире пост',
         'slug' => 'title-2'
     ],
     3 => [
-        'title' => 'Title 3',
-        'desc' => 'With supporting text below as a natural lead-in to additional
-content',
+        'title' => 'Третий пост',
+        'desc' => 'Третий в мире пост',
         'slug' => 'title-3'
     ],
     4 => [
-        'title' => 'Title 4',
-        'desc' => 'With supporting text below as a natural lead-in to additional
-content',
+        'title' => 'Четвертый пост',
+        'desc' => 'Четвертый в мире пост',
         'slug' => 'title-4'
     ],
     5 => [
@@ -37,23 +33,23 @@ content',
 ];
 $most_popular_posts = [
     1 => [
-        'title' => 'First post',
+        'title' => 'Первый пост',
         'slug' => 'item-1'
     ],
     2 => [
-        'title' => 'Second post',
+        'title' => 'Второй пост',
         'slug' => 'item-2'
     ],
     3 => [
-        'title' => 'Third post',
+        'title' => 'Третий пост',
         'slug' => 'item-3'
     ],
     4 => [
-        'title' => 'Fourth post',
+        'title' => 'Четвертый пост',
         'slug' => 'item-4'
     ],
     5 => [
-        'title' => 'Fifth post',
+        'title' => 'Пятый пост',
         'slug' => 'item-5'
     ]
 ];

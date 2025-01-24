@@ -1,23 +1,23 @@
 <?php
 $most_popular_posts = [
     1 => [
-        'title' => 'First post',
+        'title' => 'Первый пост',
         'slug' => 'item-1'
     ],
     2 => [
-        'title' => 'Second post',
+        'title' => 'Второй пост',
         'slug' => 'item-2'
     ],
     3 => [
-        'title' => 'Third post',
+        'title' => 'Третий пост',
         'slug' => 'item-3'
     ],
     4 => [
-        'title' => 'Fourth post',
+        'title' => 'Четвертый пост',
         'slug' => 'item-4'
     ],
     5 => [
-        'title' => 'Fifth post',
+        'title' => 'Пятый пост',
         'slug' => 'item-5'
     ]
 ];
