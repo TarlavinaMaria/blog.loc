@@ -30,6 +30,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="contacts">Contacts</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="create">New post</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
