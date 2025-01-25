@@ -6,7 +6,7 @@
         </div>
         <div class="col-10">
             <h3><?= $header ?? "" ?></h3>
-            <p>Some post .....</p>
+            <p> <?= $content ?></p>
         </div>
     </div>
 </main>
