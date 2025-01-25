@@ -1,5 +1,5 @@
 <div class="col-2">
-    <h3>Темы: </h3>
+    <h3>Most Popular</h3>
     <div class="list-group list-group-flush">
         <?php foreach ($most_popular_posts as $ling): ?>
             <a href="post?id=<?= $ling['post_id'] ?>" class="list-group-item list-group-item-action">

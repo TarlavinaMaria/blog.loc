@@ -5,9 +5,7 @@
 
 
             <div class="col-12">
-                <h3 class="text-center text-danger"> 404 — Страница не найдена</h3>
-                <h5 class="text-center"> Кажется, кто-то забыл поставить точку с запятой. <br>
-                    Попробуйте начать с <a href="/"> главной</a>, а я пока проверю код на опечатки.</h5>
+                <h3 class="text-center text-danger"> 404 — Page Not Found</h3>
             </div>
         </div>
     </div>

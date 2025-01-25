@@ -16,7 +16,7 @@
                                     </h5>
                                 </a>
                                 <p class="card-text"> <?= $post['excerpt'] ?></p>
-                                <p class="card-text"><small class="text-body">Last updated 3 ago</small></p>
+                                <p class="card-text"><small class="text-body">Updated 3 mins ago</small></p>
                             </div>
 
                         </div>

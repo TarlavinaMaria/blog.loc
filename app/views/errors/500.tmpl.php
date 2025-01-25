@@ -5,8 +5,7 @@
 
 
             <div class="col-12">
-                <h3 class="text-center text-danger"> 500 — Ошибка сервера</h3>
-                <h5 class="text-center"> Наш сервер задумался о смысле жизни и временно отключился.</h5>
+                <h3 class="text-center text-danger"> 500 — Server Error</h3>
             </div>
         </div>
     </div>
