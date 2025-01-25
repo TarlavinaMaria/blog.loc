@@ -11,11 +11,11 @@
                     <div class="row g-0">
                         <div class="col-md-12">
                             <div class="card-body">
-                                <a href="<?= $post['slug'] ?>">
+                                <a href="post?id=<?= $post['post_id'] ?>">
                                     <h5 class="card-title"> <?= $post['title'] ?>
                                     </h5>
                                 </a>
-                                <p class="card-text"> <?= $post['desc'] ?></p>
+                                <p class="card-text"> <?= $post['excerpt'] ?></p>
                                 <p class="card-text"><small class="text-body">Last updated 3 ago</small></p>
                             </div>
 

@@ -2,7 +2,7 @@
 return [
     'host' => 'MySQL-8.2',
     'dbname' => 'blog',
-    'user' => 'root',
+    'username' => 'root',
     'password' => '',
     'charset' => 'utf8',
     'options' => [
