@@ -7,6 +7,7 @@
         <div class="col-10">
             <h3><?= $header ?? "" ?></h3>
             <p> <?= $content ?></p>
+            <p> Rating: <?= $rating ?>/10</p>
         </div>
     </div>
 </main>
