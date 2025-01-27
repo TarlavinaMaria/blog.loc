@@ -12,7 +12,8 @@
                 <div class="mb-3">
                     <div class="form-group">
                         <label for="title">Post title:</label>
-                        <input name="title" class="form-control" id="title" placeholder="Enter post title">
+                        <input name="title" class="form-control" id="title" placeholder="Enter post title"
+                            value="<?= old('title') ?>">
                         <?php if (isset($errors['title'])): ?>
                             <div class="invalid-feedback d-block">
                                 <?= $errors['title'] ?>
@@ -24,7 +25,7 @@
                     <div class="form-group">
                         <label for="excerpt">Excerpt</label>
                         <textarea name="excerpt" type="excerpt" class="form-control" id="excerpt"
-                            placeholder="Enter excerpt" rows="3"></textarea>
+                            placeholder="Enter excerpt" rows="3" value="<?= old('excerpt') ?>"></textarea>
                         <?php if (isset($errors['excerpt'])): ?>
                             <div class="invalid-feedback d-block">
                                 <?= $errors['excerpt'] ?>
@@ -36,7 +37,7 @@
                     <div class="form-group">
                         <label for="content">Content</label>
                         <textarea name="content" type="content" class="form-control" id="content"
-                            placeholder="Enter content" rows="10"></textarea>
+                            placeholder="Enter content" rows="10" value="<?= old('content') ?>"></textarea>
                         <?php if (isset($errors['content'])): ?>
                             <div class="invalid-feedback d-block">
                                 <?= $errors['content'] ?>

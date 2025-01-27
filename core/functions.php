@@ -21,9 +21,17 @@ function loadReqData($fillanble = [])
     $data = [];
     foreach ($_POST as $key => $val) {
         if (in_array($key, $fillanble)) {
-            $data[$key] = $val;
+            $data[$key] = trim($val);
         }
     }
     return $data;
+}
+function old($fieldname)
+{
+    return (isset($_POST[$fieldname])) ? h($_POST[$fieldname]) : "";
+}
+function h($str)
+{
+    return htmlspecialchars($str, ENT_QUOTES);
 }
 ?>
