@@ -16,4 +16,14 @@ function abort($code = 404)
     require_once VIEWS . "/errors/{$code}.tmpl.php";
     die;
 }
+function loadReqData($fillanble = [])
+{
+    $data = [];
+    foreach ($_POST as $key => $val) {
+        if (in_array($key, $fillanble)) {
+            $data[$key] = $val;
+        }
+    }
+    return $data;
+}
 ?>

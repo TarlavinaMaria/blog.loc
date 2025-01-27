@@ -4,7 +4,7 @@ $routes = [
     'index.php' => "index.php",
     'contacts' => "contacts.php",
     'post' => "post.php",
-    'create' => "create.php",
+    'post/create' => "create-post.php",
 ];
 
 

@@ -31,7 +31,7 @@
                                 <a class="nav-link" href="contacts">Contacts</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="create">New post</a>
+                                <a class="nav-link" href="post/create">New post</a>
                             </li>
                         </ul>
                     </div>
