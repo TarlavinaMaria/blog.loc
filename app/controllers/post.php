@@ -14,8 +14,10 @@ $rating = $post['rating'];
 // Обновляем данные рейтинга
 if ($action === 'up') {
     $db->query("UPDATE posts SET rating = rating + 1 WHERE post_id = ?", [$id]);
+    header('Location: /post?id=' . $id);
 } elseif ($action === 'down') {
     $db->query("UPDATE posts SET rating = rating - 1 WHERE post_id = ?", [$id]);
+    header('Location: /post?id=' . $id);
 }
 
 require_once(VIEWS . '/post.tmpl.php');
