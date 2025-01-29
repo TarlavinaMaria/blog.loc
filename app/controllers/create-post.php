@@ -32,22 +32,13 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $validator = new Validator();
     $validator->validate($data, $rules);
 
-    if (empty($data['title'])) {
-        $errors['title'] = 'Title is required';
-    }
-    if (empty($data['excerpt'])) {
-        $errors['excerpt'] = 'Excerpt is required';
-    }
-    if (empty($data['content'])) {
-        $errors['content'] = 'Content is required';
-    }
 
-    if (empty($errors)) {
+    if (!$validator->hasErrors()) {
         if ($db->query("INSERT INTO posts (title, excerpt, content) VALUES (:title, :excerpt, :content)", $data)) {
             echo "Post created";
+        } else {
+            echo "Error";
         }
-    } else {
-
     }
 }
 
