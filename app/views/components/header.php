@@ -33,6 +33,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="post/create">New post</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="regictration">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login">Login</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
