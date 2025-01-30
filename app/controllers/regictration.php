@@ -6,12 +6,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
 
-    // Валидация ввода
     if (empty($name) || empty($email) || empty($password)) {
         die("Пожалуйста, заполните все поля.");
     }
 
-    // Проверка уникальности email
+    // Проверка существования пользователя
     $result = $db->query("SELECT id FROM users WHERE email = ?", [$email]);
     if ($result === false) {
         die("Ошибка выполнения запроса.");

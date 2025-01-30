@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Получаем данные из формы и удаляем лишние пробелы
+
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
 
@@ -13,13 +13,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $db->query("SELECT * FROM users WHERE email = ?", [$email]);
 
     if ($result === false) {
-        die("Ошибка выполнения запроса.");
+        abort(500);
     }
 
     $user = $result->find();
 
     if (!$user) {
-        die("Пользователь не найден.");
+        echo ("Пользователь не найден.");
+        header("Location: regictration");
     }
 
     // Проверка пароля
