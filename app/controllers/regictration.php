@@ -2,9 +2,9 @@
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Получаем данные из формы
-    $name = trim($_POST['name']);
-    $email = trim($_POST['email']);
-    $password = trim($_POST['password']);
+    $name = htmlspecialchars(trim($_POST['name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $password = htmlspecialchars(trim($_POST['password']));
 
     if (empty($name) || empty($email) || empty($password)) {
         die("Пожалуйста, заполните все поля.");
